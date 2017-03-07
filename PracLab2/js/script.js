@@ -16,11 +16,11 @@ if (name === "student")
   var title=title;
 
  title ="Lecture 53";
-var title =
-document
-.querySelector("#title")
-.textContent;
- title += " & Lovin' it!";
+var titlem =
+//document
+//.querySelector("#title")
+//.textContent;
+ titlem = title+ " & rLovin' it!";
 document
 .querySelector("h1")
 .textContent = title;
