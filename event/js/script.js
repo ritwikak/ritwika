@@ -1,4 +1,6 @@
 // Event handling
+var count;
+count==0;
 document.addEventListener("DOMContentLoaded",
 function (event) {
 function sayHello (event) {
@@ -15,7 +17,11 @@ var title =
 document
 .querySelector("#title")
 .textContent;
+  if(coutn===0)
+  {
 title += " & Lovin' it!";
+    count++;
+  }
 document
 .querySelector("h1")
 .textContent = title;
