@@ -17,9 +17,9 @@ if (name === "student")
 
  title ="Lecture 53";
 var titlem =
-//document
-//.querySelector("#title")
-//.textContent;
+document
+.querySelector("#title")
+.textContent;
  titlem = title+ " & rLovin' it!";
 document
 .querySelector("h1")
