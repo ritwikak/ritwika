@@ -20,7 +20,7 @@ var title =
 document
 .querySelector("#title")
 .textContent;
- title += " & tLovin' it!";
+ title += " & rLovin' it!";
 document
 .querySelector("h1")
 .textContent = title;
