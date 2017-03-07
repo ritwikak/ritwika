@@ -12,15 +12,23 @@ document
 .innerHTML = message;
 if (name === "student") 
 {
-  document.getElementById("title").value;
-  var title=title;
+  var count++;
+  if(count>1)
+  {
+    document
+.querySelector("h1")
+.textContent = title;
+    break;
+  }
+  //document.getElementById("title").value;
+ // var title=title;
 
- title ="Lecture 53";
-var titlem =
+ //title ="Lecture 53";
+var title =
 document
 .querySelector("#title")
 .textContent;
- titlem = title+ " & rLovin' it!";
+ title = title+ " & rLovin' it!";
 document
 .querySelector("h1")
 .textContent = title;
