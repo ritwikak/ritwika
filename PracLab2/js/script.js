@@ -15,12 +15,12 @@ if (name === "student")
   document
 .querySelector("#title")
 .textContent;
-  title ="Lecture 53";
+ title ="Lecture 53";
 var title =
 document
 .querySelector("#title")
 .textContent;
-title += " & Lovin' it!";
+ title += " & tLovin' it!";
 document
 .querySelector("h1")
 .textContent = title;
