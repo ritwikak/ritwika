@@ -1,9 +1,6 @@
 function sayHello () 
 {
-  document
-.querySelector("#title")
-.textContent;
-  title ="Lecture 53";
+  
 var name =
 document.getElementById("name").value;
 var message = "<h2>Hello " + name + "!</h2>";
@@ -15,6 +12,10 @@ document
 .innerHTML = message;
 if (name === "student") 
 {
+  document
+.querySelector("#title")
+.textContent;
+  title ="Lecture 53";
 var title =
 document
 .querySelector("#title")
