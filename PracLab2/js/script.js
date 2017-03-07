@@ -12,9 +12,9 @@ document
 .innerHTML = message;
 if (name === "student") 
 {
-  document
-.querySelector("#title")
-.textContent;
+  document.getElementById("title").value;
+  var title=title;
+
  title ="Lecture 53";
 var title =
 document
