@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded",
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
-            function (res) {
+            function add (res) {
               var a=res.firstnum+res.secondnum;
               var message = 
                 res.firstnum + " + " + res.secondnum + " = "+ a;
