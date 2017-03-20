@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",
   function (event) {
     
     // Unobtrusive event binding
-    document.getElementById("add")
+          document.querySelector(#add)
       .addEventListener("click", function () {
         
         // Call server to get the name
