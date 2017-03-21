@@ -44,13 +44,9 @@ document.addEventListener("DOMContentLoaded",
             }
                           }//if over
                         
-      });
-  }
-
-                        
-    
-};
-};
+                          }
+                          }
+                          );
 
 
 
