@@ -3,6 +3,7 @@
 function getMarks () {
   var name =
    document.getElementById("name").value;
+  document.write(name);
  
 if(name=="Aakriti")
 {
@@ -21,9 +22,9 @@ document.addEventListener("DOMContentLoaded",
             function (res) {
             
               var message = 
-               "Marks of " + res.nameone
+               "Marks of " + res.nameone + ": "+ marksone + "out of 100";
               
-              message += ": "+ marksone + "out of 100";
+              
               
 
               document.querySelector("#content")
@@ -32,7 +33,8 @@ document.addEventListener("DOMContentLoaded",
       });
   }
 );
-}
+};
+};
 
 
 
