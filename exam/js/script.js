@@ -17,7 +17,24 @@ document.addEventListener("DOMContentLoaded",
             function (res) {
             
               var message = 
-               "Marks of " + res.nameone + ": "+ marksone + "out of 100";
+               "Marks of " + res.nameone + ": "+ res.marksone + "out of 100";
+              
+              
+              
+
+              document.querySelector("#content")
+                .innerHTML = "<h2>" + message + "</h2>";
+            }
+                          }//if over
+                          if(student==="Zohaib Khan"){
+        
+        // Call server to get the name
+        $ajaxUtils
+          .sendGetRequest("data/name.json", 
+            function (res) {
+            
+              var message = 
+               "Marks of " + res.nametwo + ": "+ res.markstwo + "out of 100";
               
               
               
@@ -29,7 +46,9 @@ document.addEventListener("DOMContentLoaded",
                         
       });
   }
-);
+
+                        
+    
 };
 };
 
