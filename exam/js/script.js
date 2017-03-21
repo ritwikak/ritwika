@@ -1,20 +1,21 @@
 var student ;
-function getMarks () {
+//function getMarks () {
  
-  student= document.getElementById("name").value;
+  //student= document.getElementById("name").value;
   //document.write(student);
-};
+//};
 console.log(student); 
 
 // feom example 57 - 
 // Event handling
 document.addEventListener("DOMContentLoaded",
-  function (event) {
+  function getMarks (event) {
  
     
     // Unobtrusive event binding
     document.querySelector("button")
       .addEventListener("click", function () {
+     student= document.getElementById("name").value;
         
       if(student=="Aakriti"){
         
