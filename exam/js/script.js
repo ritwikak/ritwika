@@ -4,7 +4,7 @@ var student ;
   //student= document.getElementById("name").value;
   //document.write(student);
 //};
-console.log(student); 
+//console.log(student); 
 
 // feom example 57 - 
 // Event handling
@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
      student= document.getElementById("name").value;
-        
-      if(student=="Aakriti"){
+        console.log(student); 
+//if(student=="Aakriti"){
         
         // Call server to get the name
         $ajaxUtils
