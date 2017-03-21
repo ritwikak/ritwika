@@ -4,7 +4,7 @@ function getMarks () {
   student= document.getElementById("name").value;
   //document.write(student);
 };
-  
+console.log(student); 
 
 // feom example 57 - 
 // Event handling
