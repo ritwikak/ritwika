@@ -1,9 +1,9 @@
 
 
 function getMarks () {
-  var name =
+  var student =
    document.getElementById("name").value;
-  document.write(name);
+  document.write(student);
  
 if(name=="Aakriti")
 {
