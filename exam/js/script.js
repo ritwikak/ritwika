@@ -12,7 +12,7 @@
 document.addEventListener("DOMContentLoaded",
   function (event) {
   function getMarks () {  
-     var student =   document.getElementById("name").value;
+      student =   document.getElementById("name").value;
   }
     
     // Unobtrusive event binding
