@@ -1,11 +1,10 @@
-
-
-//function getMarks () {
-  //var student =
-  // document.getElementById("name").value;
+var student ;
+function getMarks () {
+ 
+  student= document.getElementById("name").value;
   //document.write(student);
+};
   
-  var student ;
 
 // feom example 57 - 
 // Event handling
@@ -17,8 +16,8 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
         
-      //if(student=="Aakriti"){
-        document.write("hello");
+      if(student=="Aakriti"){
+        
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
