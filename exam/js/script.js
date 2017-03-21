@@ -3,18 +3,9 @@
 function getMarks () {
   var name =
    document.getElementById("name").value;
-   var message = "<h2>Marks of " + name + "!</h2>";
-
-  // document
-  //   .getElementById("content")
-  //   .textContent = message;
-
-  document
-    .getElementById("content")
-    .innerHTML = message;
-
-
-
+ 
+if(name==="Aakriti Mehta")
+{
 // feom example 57 - 
 // Event handling
 document.addEventListener("DOMContentLoaded",
@@ -28,17 +19,12 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("data/name.json", 
             function (res) {
+            
               var message = 
-                res.firstName + " " + res.lastName
-              if (res.likesChineseFood) {
-                message += " likes Chinese food";
-              }
-              else {
-                message += " doesn't like Chinese food";
-              }
-              message += " and uses ";
-              message += res.numberOfDisplays + 1;
-              message += " displays for coding.";
+               "Marks of " + res.nameone
+              
+              message += ": "+ marksone + "out of 100";
+              
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
@@ -46,6 +32,7 @@ document.addEventListener("DOMContentLoaded",
       });
   }
 );
+}
 
 
 
