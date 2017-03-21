@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded",
       .addEventListener("click", function () {
         
       if(name=="Aakriti"){
-        
+        document.write("hello");
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
