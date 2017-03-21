@@ -4,7 +4,7 @@ function getMarks () {
   var name =
    document.getElementById("name").value;
  
-if(name==="Aakriti Mehta")
+if(name=="Aakriti")
 {
 // feom example 57 - 
 // Event handling
