@@ -1,13 +1,5 @@
 var student ;
-//function getMarks () {
- 
-  //student= document.getElementById("name").value;
-  //document.write(student);
-//};
-//console.log(student); 
 
-// feom example 57 - 
-// Event handling
 document.addEventListener("DOMContentLoaded",
   function getMarks (event) {
  
@@ -17,7 +9,7 @@ document.addEventListener("DOMContentLoaded",
       .addEventListener("click", function () {
      student= document.getElementById("name").value;
         console.log(student); 
-//if(student=="Aakriti"){
+     if(student==="Aakriti"){
         
         // Call server to get the name
         $ajaxUtils
@@ -32,7 +24,9 @@ document.addEventListener("DOMContentLoaded",
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
-            });
+            }
+                          }//if over
+                        
       });
   }
 );
