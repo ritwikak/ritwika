@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded",
     document.querySelector("button")
       .addEventListener("click", function () {
         
-      if(name=="Aakriti"){
+      if(student=="Aakriti"){
         document.write("hello");
         // Call server to get the name
         $ajaxUtils
