@@ -11,9 +11,7 @@
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
-  function getMarks () {  
-      student =   document.getElementById("name").value;
-  }
+ 
     
     // Unobtrusive event binding
     document.querySelector("button")
